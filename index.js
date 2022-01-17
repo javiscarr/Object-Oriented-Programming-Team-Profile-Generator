@@ -1,4 +1,4 @@
-
+const generateHTML = require('./src/generateHTML')
 
 //Profiles
 
@@ -206,3 +206,37 @@ const addEmployee = () => {
         }
     })
 };
+
+//this function will generate a HTML file with fs
+
+const writeFile = data => {
+
+    fs.writeFile('./dist/index.html', data, err => {
+
+        if (err) {
+
+            console.log(err);
+            return;
+
+            } else {
+                console.log("You have created your team successfully! You may view your team at index.html")
+            }
+    })
+};
+
+addManager()
+    .then(addEmployee)
+    .then(teamArray => {
+
+        return generateHTML(teamArray);
+    })
+
+    .then(HTMLpage => {
+
+        return writeFile(HTMLpage);
+    })
+
+    .catch(err => {
+
+        console.log(err);
+    });

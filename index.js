@@ -231,9 +231,9 @@ addManager()
         return generateHTML(teamArray);
     })
 
-    .then(HTMLpage => {
+    .then(htmlPage => {
 
-        return writeFile(HTMLpage);
+        return writeFile(htmlPage);
     })
 
     .catch(err => {

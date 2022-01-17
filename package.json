@@ -1,6 +1,23 @@
 {
+  "name": "Object-Oriented-Programming-Team-Profile-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+},
   "scripts": {
     "test": "jest"
+  },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/javiscarr/Object-Oriented-Programming-Team-Profile-Generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/javiscarr/Object-Oriented-Programming-Team-Profile-Generator/issues"
   },
   "dependencies": {
     "bootstrap-icons": "^1.7.2",

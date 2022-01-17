@@ -1,6 +1,6 @@
 //Intern as a constructor
 
-const { expect } = require('@jest/globals');
+
 const Intern = require('../lib/Intern');
 
 //Intern as an object

@@ -193,7 +193,7 @@ const addEmployee = () => {
             console.log(employee);
      
         } else if (role === "Intern") {
-            employee === new Intern (name, id, email, school);
+            employee = new Intern (name, id, email, school);
 
             console.log(employee);
         

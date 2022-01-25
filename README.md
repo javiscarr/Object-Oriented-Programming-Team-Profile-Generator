@@ -24,7 +24,7 @@ User's should have the ability to clone the repository from Github and run the a
 Run `node index.js` from your command line and answer questions prompted
 ![Screenshot](./images/teamprofile.JPG) <br>
 
-You can view the video walk through here - [Vimeo](https://vimeo.com/666971028/ce116e49ab)
+You can view the video walk through here - [Vimeo](https://vimeo.com/669681157/286e1de85c)
 
 ## License
 
